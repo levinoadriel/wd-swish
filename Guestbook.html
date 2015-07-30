@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Set Title-->
+    <title>wedding</title>
+
+    <!--Load Bootstrap Styles-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <!--Load Styles-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/fontello.css">
+
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.gif"/>
+
+
+    <!--Load Scripts-->
+    <script src="js/modernizr.custom.63321.js"></script>
+    <!--[if IE]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <!-- Start Header2Wrap -->
+    <header class="Header-Wrap">
+        <!--Start HomePageBgColor-->
+        <div class="Header-Wrap-Ovelay">
+
+            <!-- Start TopMenu -->
+            <div class="TopMenu">
+                <nav class="wedding-menu wedding-menu-horizontal wedding-menu-top" id="slide-menu">
+                    <div class="wedding-menu-bg">
+                        <ul class="categories">
+                            <li class="menu-item"><a href="home-default-template.html">Home</a>
+                            </li>
+                            <li class="menu-item dropdown"><a class="is-active no-action" href="Guestbook.html">About</a>
+                                <ul class="submenu">
+                                    <li><a href="About.html">Meet the Couple</a>
+                                    </li>
+                                    <li><a href="storypage.html">Our Story</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item dropdown"><a class="is-active no-action" href="Guestbook.html">Events</a>
+                                <ul class="submenu">
+                                    <li><a href="main-ceremony.html">Main Ceremony</a>
+                                    </li>
+                                    <li><a href="wedding-party.html">Wedding party</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="Guestbook.html">Guestbook</a>
+                            </li>
+                            <li class="menu-item"><a href="Gallery.html">Gallery</a>
+                            </li>
+
+                            <li class="menu-item"><a href="contactus.html">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- End wedding-menu-bg -->
+
+                    <div class="Menu-CloseBrd"></div>
+                    <!-- End OpenBtnBrd -->
+                    <div id="close" class="Menu-Close">
+                        <img src="img/Menu-Close.png" alt="">
+                    </div>
+                    <!-- End Menu-Close -->
+
+                </nav>
+                <div class="SlideMenu"></div>
+                <!-- End SlideMenu -->
+                <div id="open" class="OpenBtn">
+                    <img src="img/openBtn.png" alt="" id="open-menu-icon">
+                </div>
+                <!-- End OpenBtn -->
+
+            </div>
+            <!-- End TopMenu -->
+
+            <!--Start Container-->
+            <div class="container">
+
+                <!--Start Row-->
+                <div class="row clearfix">
+
+                    <h1><a href="Guestbook.html#">Sarah <br/>& Joseph</a></h1>
+
+                    <h2>are getting married</h2>
+
+                    <p class="Date">31st January, 2015</p>
+
+
+
+                </div>
+                <!--End Row -->
+
+            </div>
+            <!--End Container -->
+
+        </div>
+        <!-- End HomePageBgColor -->
+    </header>
+    <!-- End Header2Wrap -->
+
+
+    <article>
+        <!--Start Container-->
+        <div class="container">
+            <!--Start Row-->
+            <div class="row clearfix ">
+                <!-- Start Inner-Container -->
+                <div class="Inner-Container">
+                    <!-- Start InnerPage -->
+                    <div class="InnerPage col-lg-10 col-md-10 col-sm-10 col-xs-11 col-centered">
+
+                        <h2>Guest Book</h2>
+                        <h3>LEAVE US A NOTE</h3>
+                        <p>We would love to hear from all of you.
+                            <br/>Please write your wishes here</p>
+
+                    </div>
+                    <!-- End InnerPage -->
+
+                    <!-- Start Guestbook-Container -->
+                    <div class="Guestbook-Container">
+
+                        <!-- Start Guestbook-Banner-Wrap -->
+                        <div class="Guestbook-Banner-Wrap col-lg-10 col-md-10 col-sm-10 col-xs-11 col-centered clearfix">
+                            <img src="img/Guestbook-Banner.jpg" alt="" data-no-retina class="img-responsive Guestbook-Banner">
+                        </div>
+                        <!-- End Guestbook-Banner-Wrap -->
+
+                        <!-- Start Wedding-Form -->
+                        <div class="Wedding-Form col-lg-8 col-md-8 col-sm-8 col-xs-10 col-centered clearfix">
+                            <form method="post" id="guestbook-form">
+                                <div class="form-group">
+
+                                    <label for="message">Your Message</label>
+                                    <textarea class="form-control" rows="3" id="message" name="message" placeholder="Write your wishes here..." maxlength="160"></textarea>
+                                    <div id="message_limit"></div>
+
+                                </div>
+                
+                                <div class="form-group">
+
+                                    <label for="guest-name">Name</label>
+                                    <input type="text" class="form-control" placeholder="John Doe" id="guest-name" name="guest-name">
+
+                                </div>
+                               
+                                <div class="form-group">
+
+                                    <label for="Wedding-YourEmail">Your Email*</label>
+                                    <input type="text" class="form-control" placeholder="email@wedding.com" id="guest-email" name="guest-email">
+
+                                </div>
+                                
+
+                                <div class="Wedding-Btn-Wrap">
+                                    <button type="submit" class="btn btn-default Wedding-Btn">Add your wishes</button>
+                                </div>
+                                <!-- End Wedding-Btn-Wrap -->
+
+                            </form>
+
+                        </div>
+                        <!-- End Wedding-Form -->
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Guestbook-Container -->
+                </div>
+                <!-- End Inner-Container -->
+            </div>
+            <!--End Row -->
+        </div>
+        <!--End Container -->
+
+        <div class="Guestbook-Messages">
+            <!--Start Container-->
+            <div class="container">
+                <!--Start Row-->
+                <div class="row clearfix ">
+
+                    <div class="Guestbook-Sms col-lg-8 col-md-8 col-sm-8 col-xs-8 col-centered clearfix">
+                        <div class="Guestbook-Sms-Box">
+                            To the happy couple, the best of luck in your new future. Be together forever. Cheers!
+                        </div>
+                        <!-- End Guestbook-Sms-Box -->
+                        <h2>Edward Price</h2>
+                        <h3>October 18, 2015 @ 6:22 am</h3>
+                        <div class="Guestbook-Patterns-Img wow fadeInUp" data-wow-duration="2s">
+                            <i class="icon-pattern icon-pattern-color"></i>
+                        </div>
+                        <!-- End Guestbook-Patterns-Img -->
+
+                    </div>
+                    <!-- End Guestbook-Sms -->
+                    <div class="Guestbook-Sms col-lg-8 col-md-8 col-sm-8 col-xs-8 col-centered clearfix">
+                        <div class="Guestbook-Sms-Box">
+                            It can sometimes be hard to gather the right words to wish someone a happily  ever after but (Sarah & Joseph) make it easy!
+                        </div>
+                        <!-- End Guestbook-Sms-Box -->
+                        <h2>Alice Ross</h2>
+                        <h3>October 15, 2015 @ 4:20 am</h3>
+                        <div class="Guestbook-Patterns-Img wow fadeInUp" data-wow-duration="2s">
+                            <i class="icon-pattern icon-pattern-color"></i>
+                        </div>
+                        <!-- End Guestbook-Patterns-Img -->
+
+                    </div>
+                    <!-- End Guestbook-Sms -->
+
+                </div>
+                <!--End Row -->
+            </div>
+            <!--End Container -->
+        </div>
+        <!-- End Guestbook-Messages -->
+        <a href="Guestbook.html#" class="scrollToTop hidden-sm hidden-xs "><i class="icon-top-arrow scrollToTop-icon"></i></a>
+    </article>
+
+
+    <!-- Start FooterWrap -->
+    <footer class="FooterWrap">
+        <!--Start Container-->
+        <div class="container">
+            <!--Start Row-->
+            <div class="row clearfix ">
+
+                <!-- Start Footer-Logo -->
+                <div class="Footer-Logo">
+                    <h1><a href="Guestbook.html#">Sarah<br/> & Joseph</a></h1>
+                </div>
+                <!-- End Footer-Logo -->
+
+                <!-- Start Footer-Link -->
+                <div class="Footer-Link">
+                    <ul>
+                        <li><a href="home-default-template.html">Home</a></li>
+                        <li><a href="About.html">About</a> </li>
+                        <li><a href="storypage.html">Our Story</a></li>
+                        <li><a href="Guestbook.html">Guest Book</a></li>
+                        <li><a href="main-ceremony.html">Main Ceremony</a></li>
+                        <li><a href="wedding-party.html">Wedding party</a></li>
+                        <li><a href="Gallery.html">Gallery </a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- End Footer-Link -->
+
+                <!-- Start Footer-Copyright -->
+                <div class="Footer-Copyright">
+                    <span class="CopyRightText">All images Copyright © 2015</span>
+                    <!--End CopyRightText-->
+                    <span class="CopyRightEmail"> www.risinghues.com</span>
+                    <!--End CopyRightEmail-->
+                </div>
+                <!-- End Footer-Copyright -->
+
+            </div>
+            <!--End Row -->
+        </div>
+        <!--End Container -->
+    </footer>
+    <!-- End FooterWrap -->
+
+
+    <!--Load Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/guestbook-form.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,2368 @@
+/* ----------------------------
+Custom, iPhone Retina
+------------------------------- */
+
+@media only screen and (min-width: 320px) {
+    h1 {
+        font-size: 70px;
+        line-height: 75px;
+        margin: 0;
+        padding: 0 5px 0 10px;
+    }
+    .Header-Wrap h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .TopMenu {
+        padding: 0 0 125px 0;
+    }
+    .SubHeading-inner {
+        padding: 0;
+    }
+    .Header-Overlay {
+        padding-bottom: 220px;
+    }
+    .homepage-hero-module {
+        margin-bottom: -135px;
+    }
+    .SubHeading {
+        margin: 0px 0px 0px 0px;
+    }
+    .SubHeading h2 {
+        font-size: 20px;
+    }
+    .SubHeading h2:before, .SubHeading h2:after {
+        width: 0%;
+    }
+    .SubHeading h2:before {
+        background: transparent;
+    }
+    .SubHeading h2:after {
+        background: transparent;
+    }
+    .SubHeading h2 span {
+        padding: 0px 0px;
+    }
+    .Date {
+        font-size: 32px;
+    }
+    blockquote {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .noUi-target {
+        width: 130px!important;
+    }
+    .Navigation-menu {
+        padding: 0 0 120px 0;
+    }
+    /*Profile*/
+    
+    .BuddiesContainer h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .Profile {
+        margin: -168px 0 0 0;
+        padding: 0 0 0px 0;
+    }
+    .Buddies h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .Bride-Groom-Details {
+        background: transparent!important;
+        background-position: top center;
+        background-repeat: no-repeat;
+        min-height: 714px;
+        height: auto;
+        padding: 0 0 50px 0;
+    }
+    .Bride-Groom-Desc{
+        font-size: 16px;
+    }
+    .Bride-Details {
+        padding: 30px 0 30px 0px;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        border-radius: 3px;
+        margin-bottom: 24px;
+        margin-right: 0;
+    }
+    .Groom-Details {
+        padding: 30px 0 30px 0px;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        border-radius: 3px;
+    }
+    .BuddiesContainer {
+        margin: 0px 0 0px 0;
+    }
+    .BuddieImgContainer {
+        border: 3px solid #fff;
+    }
+    .Buddies {
+        margin: 35px 0 0 0;
+    }
+    .Buddie {
+        margin: 0 0 20px 0;
+    }
+    .PhotoAlbumWrap {
+        padding: 0px 0 60px 0;
+    }
+
+    /*OurStory*/
+
+    .OurStoryContainer {
+        padding: 15px 0 142px 0;
+    }
+    
+    .OurStoryPic {
+        padding: 0;
+    }
+    .OurStoryImg {
+        width: 90%!important;
+        margin: 15px auto 0 auto;
+        float: none!important;
+        height: auto;
+        padding: 20px;
+        background: transparent;
+        background-color: #fff;
+        border: 4px solid #e9bf8f;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+    .OurStoryText {
+        padding: 35px 0 0 0;
+    }
+    /*Schedule*/
+    
+    .Schedule-Item h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .Schedule-Item {
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .ScheduleContent {
+        background-color: #ffffff;
+        padding: 20px 15px 35px 15px;
+        min-height: 226px;
+        height: auto;
+        color: #7c2a47;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+
+    /*RSVP-Form*/
+    
+    .RSVP-Form {
+        background: transparent;
+        margin: 30px 0 0 0;
+    }
+    .RSVP-Form-Overlay {
+        background: transparent;
+        padding: 110px 0 70px 0;
+    }
+    .RSVP-Form-Content {
+        background-color: #ffffff;
+        padding: 35px 0 30px 0;
+        min-height: 300px;
+        height: auto;
+    }
+    .RSVP-Left-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: right;
+        width: 35px!important;
+        min-height: 550px;
+        height: auto;
+        margin-left: 5px;
+    }
+    .RSVP-Right-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: left;
+        width: 35px!important;
+        min-height: 550px;
+        height: auto;
+    }
+    #loading { 
+        position: absolute;
+        right: -20px;
+        top: 25px;
+    }
+    .success-msg {
+        display: none;
+        margin: 120px 0 150px 0;
+    }
+    .Name-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .Attend-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .Guest-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .AddBtnDiv {
+        padding-top: 9px;
+    }
+    /*FooterWrap*/
+    
+    .CopyRightText {
+        margin: 0 0 0 0;
+    }
+    .Footer-Link ul li a {
+        padding: 0 10px 0 10px;
+    }
+    /*Gallery-Page*/
+    
+    .Gallery-Header ul li {
+        display: block;
+        line-height: 62px;
+    }
+    .Gallery-Header ul li a {
+        margin: 0 0 0 0;
+    }
+    .Gallery-Container {
+        padding: 0 0 60px 0;
+    }
+    /*Guestbook*/
+    
+    .Guestbook-Sms-Box {
+        width: 100%!important;
+        height: auto;
+        padding: 30px 10px 30px 10px;
+        background: transparent;
+        background-color: #fff;
+        border: 1px solid #ecdcd3;
+        -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Guestbook-Messages {
+        padding: 80px 0 0px 0;
+    }
+    .Guestbook-Banner {
+        margin: 0 0 30px 0;
+    }
+    /*AboutPage*/
+
+    .InnerPage {
+        padding-top: 52px;
+        padding-bottom: 30px;
+    }
+
+    .InnerPage p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .AboutProfileText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+     .AboutProfileView {
+        padding: 30px 0 125px 0;
+    }
+    .AboutProfileLivesBg1 {
+        margin: 0 0 45px 0;
+    }
+    .AboutProfileLivesBg2 {
+        margin: 0 0 45px 0;
+    }
+    .AboutProfileInfo p {
+        margin: 0 0 10px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .AboutProfileRight {
+        margin-top: 30px;
+    }
+    
+    .Groom-Info {
+        float: none;
+    }
+    .Groom-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Groom-Text {
+        padding: 60px 25px 50px 25px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 30px auto 0px auto;
+        border-radius: 3px;
+        width: 80%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Bride-Info {
+        float: none!important;
+    }
+    .Bride-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Bride-Text {
+        padding: 60px 25px 50px 25px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 30px auto 24px auto;
+        border-radius: 3px;
+        width: 80%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .OurStoryImgPattern {
+        padding: 10px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 10px auto 35px auto;
+        border-radius: 3px;
+        width: 100%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+    }
+
+   .story-section p.story-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .OurStory-thanks-Patterns {
+        margin: 10px auto 60px auto;
+    }
+    /*MainCeremonySchedule*/
+
+    .MainCeremonyImage {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .MainCeremonySchedule {
+        margin: 40px 0 0 0;
+    }
+
+    .MainCeremonyLocation {
+        margin: 40px 0 35px 0;
+    }
+    .MainCeremonySchedule ul li.desc {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 12px;
+    }
+    /*Wedding-Party*/
+
+    .WeddingPartyImage {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .WeddingPartyLocation {
+        margin: 40px 0 35px 0;
+    }
+    .WeddingPartySchedule ul li.desc {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 12px;
+    }
+    
+    .WeddingPartySchedule {
+        margin: 40px 0 0 0;
+    }
+    .story-section h2.story-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    #video-block{
+        width: 100%;
+        height: 597px;
+    }
+    .video-container .filter {
+        height: 597px;
+    }
+    .video-container .title-container {
+        position: absolute;
+        top: 120px;
+    }
+    /*Contact Page */
+    
+    .ContactMainImage {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .Wedding-Form input, .Wedding-Form textarea {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Wedding-Form label {
+        margin: 0 0 5px 0;
+    }
+    .form-group {
+        margin: 0 0 10px 0;
+    }
+    .page-height {
+        height: 30px;
+    }
+}
+/* ----------------------------
+Extra Small Devices, Phones
+------------------------------- */
+
+@media only screen and (min-width: 480px) {
+    h1 {
+        font-size: 70px;
+        line-height: 75px;
+        margin: 0;
+        padding: 0 5px 0 10px;
+    }
+    .Header-Wrap h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .TopMenu {
+        padding: 0 0 125px 0;
+    }
+    .SubHeading-inner {
+        padding: 0;
+    }
+    .SubHeading {
+        margin: 0px 0px 0px 0px;
+    }
+    .SubHeading h2 {
+        font-size: 20px;
+    }
+    .SubHeading h2:before, .SubHeading h2:after {
+        width: 0%;
+    }
+    .SubHeading h2:before {
+        background: transparent;
+    }
+    .SubHeading h2:after {
+        background: transparent;
+    }
+    .SubHeading h2 span {
+        padding: 0px 0px;
+    }
+    .Header-Overlay {
+        padding-bottom: 220px;
+    }
+    .homepage-hero-module {
+        margin-bottom: -135px;
+    }
+    .Date {
+        font-size: 32px;
+    }
+    blockquote {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .noUi-target {
+        width: 130px!important;
+    }
+    .Navigation-menu {
+        padding: 0 0 120px 0;
+    }
+    /*Profile*/
+
+    .BuddiesContainer {
+        margin: 0px 0 0px 0;
+    }
+    .Profile {
+        margin: -168px 0 0 0;
+        padding: 0 0 0px 0;
+    }
+    
+    .BuddiesContainer h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .BuddieImgContainer {
+        border: 3px solid #fff;
+    }
+    .Buddies {
+        margin: 35px 0 0 0;
+    }
+    .Buddies h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .Bride-Groom-Details {
+        background: transparent!important;
+        background-position: top center;
+        background-repeat: no-repeat;
+        min-height: 714px;
+        height: auto;
+        padding: 0 0 50px 0;
+    }
+    .Bride-Details {
+        padding: 30px 0 30px 0px;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        border-radius: 3px;
+        margin-bottom: 24px;
+        margin-right: 0;
+    }
+    .Groom-Details {
+        padding: 30px 0 30px 0px;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        border-radius: 3px;
+    }
+    .Bride-Groom-Desc{
+        font-size: 16px;
+    }
+    .Buddie {
+        margin: 0 0 20px 0;
+    }
+    .PhotoAlbumWrap {
+        padding: 0px 0 60px 0;
+    }
+    /*OurStory*/
+
+    .OurStoryContainer {
+        padding: 15px 0 142px 0;
+    }
+    
+    .OurStoryPic {
+        padding: 0;
+    }
+    .OurStoryImg {
+        width: 90%!important;
+        margin: 15px auto 0 auto;
+        float: none!important;
+        height: auto;
+        padding: 20px;
+        background: transparent;
+        background-color: #fff;
+        border: 4px solid #e9bf8f;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+
+    .OurStoryText {
+        padding: 35px 0 0 0;
+    }
+    /*Schedule*/
+    
+    .Schedule-Item h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .Schedule-Item {
+        margin: 0 0 50px 0;
+        padding: 0;
+    }
+    .ScheduleContent {
+        background-color: #ffffff;
+        padding: 20px 15px 35px 15px;
+        min-height: 226px;
+        height: auto;
+        color: #7c2a47;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+    /*RSVP-Form*/
+    
+    .RSVP-Form {
+        background: transparent;
+        margin: 30px 0 0 0;
+    }
+    .RSVP-Form-Overlay {
+        background: transparent;
+        padding: 110px 0 70px 0;
+    }
+    .RSVP-Form-Content {
+        background-color: #ffffff;
+        padding: 35px 0 30px 0;
+        min-height: 300px;
+        height: auto;
+    }
+    .RSVP-Left-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: right;
+        width: 35px!important;
+        min-height: 550px;
+        height: auto;
+        margin: 0 0 0 35px;
+    }
+    .RSVP-Right-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: left;
+        width: 35px!important;
+        min-height: 550px;
+        height: auto;
+    }
+    #loading { 
+        position: absolute;
+        right: 5px;
+        top: 25px;
+    }
+    .success-msg {
+        display: none;
+        margin: 120px 0 150px 0;
+    }
+    .Name-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .Attend-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .Guest-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .AddBtnDiv {
+        padding-top: 9px;
+    }
+    /*FooterWrap*/
+    
+    .CopyRightText {
+        margin: 0 35px 0 0;
+    }
+    .Footer-Link ul li a {
+        padding: 0 10px 0 10px;
+    }
+    /*Gallery-Page*/
+    
+    .Gallery-Header ul li {
+        display: block;
+    }
+    .Gallery-Header ul li a {
+        margin: 0 20px 0 0;
+    }
+    .Gallery-Container {
+        padding: 0 0 60px 0;
+    }
+    /*Guestbook*/
+    
+    .Guestbook-Sms-Box {
+        width: 100%!important;
+        padding: 10px 10px 10px 10px;
+    }
+    .Guestbook-Sms-Box {
+        width: 100%!important;
+        height: auto;
+        padding: 30px 10px 30px 10px;
+        background: transparent;
+        background-color: #fff;
+        border: 1px solid #ecdcd3;
+        -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Guestbook-Messages {
+        padding: 80px 0 0px 0;
+    }
+    .Guestbook-Banner {
+        margin: 0 0 30px 0;
+    }
+    /*AboutPage*/
+
+    .InnerPage {
+        padding-top: 52px;
+        padding-bottom: 30px;
+    }
+    .InnerPage p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .AboutProfileText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+     .AboutProfileView {
+        padding: 30px 0 125px 0;
+    }
+    .AboutProfileLivesBg1 {
+        margin: 0 0 45px 0;
+    }
+    .AboutProfileLivesBg2 {
+        margin: 0 0 45px 0;
+    }
+    .AboutProfileInfo p {
+        margin: 0 0 10px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .AboutProfileRight {
+        margin-top: 30px;
+    }
+    
+    .Groom-Info {
+        float: none;
+    }
+    .Groom-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Groom-Text {
+        padding: 60px 25px 50px 25px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 30px auto 0px auto;
+        border-radius: 3px;
+        width: 80%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Bride-Info {
+        float: none!important;
+    }
+    .Bride-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Bride-Text {
+        padding: 60px 25px 50px 25px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 30px auto 24px auto;
+        border-radius: 3px;
+        width: 80%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .OurStoryImgPattern {
+        padding: 10px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 10px auto 35px auto;
+        border-radius: 3px;
+        width: 100%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+    }
+
+    .story-section p.story-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+     .OurStory-thanks-Patterns {
+        margin: 10px auto 60px auto;
+    }
+    /*MainCeremonySchedule*/
+    
+    .MainCeremonySchedule {
+        margin: 40px 0 0 0;
+    }
+
+    .MainCeremonyImage {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .MainCeremonyLocation {
+        margin: 40px 0 35px 0;
+    }
+    .MainCeremonySchedule ul li.desc {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 12px;
+    }
+
+    /*Wedding-Party*/
+
+    .WeddingPartyImage {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .WeddingPartyLocation {
+        margin: 40px 0 35px 0;
+    }
+
+    .WeddingPartySchedule ul li.desc {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 12px;
+    }
+    
+    .WeddingPartySchedule {
+        margin: 40px 0 0 0;
+    }
+    .story-section h2.story-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    #video-block{
+        width: 100%;
+        height: 597px;
+    }
+    .video-container .filter{
+        height: 597px;
+    }
+    .video-container .title-container {
+        position: absolute;
+        top: 120px;
+    }
+    /*Contact Page */
+    
+    .ContactMainImage {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .Wedding-Form input, .Wedding-Form textarea  {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .Wedding-Form label {
+        margin: 0 0 5px 0;
+    }
+    .form-group {
+        margin: 0 0 10px 0;
+    }
+    .page-height {
+        height: 30px;
+    }
+}
+/* ---------------------
+Small Devices, Tablets 
+------------------------- */
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 175px;
+        line-height: 155px;
+        margin: 0;
+        padding: 0;
+    }
+    .Header-Wrap h1 {
+        font-size: 70px;
+        line-height: 62px;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    .Header-Overlay {
+        padding-bottom: 248px
+    }
+    .homepage-hero-module {
+        margin-bottom: -220px;
+    }
+    .TopMenu {
+        padding: 0 0 170px 0;
+    }
+    .SubHeading-inner {
+        padding: 0;
+    }
+    .SubHeading {
+        margin: 30px 0px 20px 0px;
+    }
+    .SubHeading h2 {
+        font-size: 30px;
+    }
+    .SubHeading h2:before, .SubHeading h2:after {
+        width: 28%;
+    }
+    .SubHeading h2:before {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+        /* IE6-9 */
+        
+        left: 0;
+    }
+    .SubHeading h2:after {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+        /* IE6-9 */
+        
+        right: 0;
+        left: auto;
+    }
+    .SubHeading h2 span {
+        padding: 0px 0px;
+    }
+    .Date {
+        font-size: 41px;
+    }
+    blockquote {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .noUi-target {
+        width: 150px!important;
+    }
+    .Navigation-menu {
+        padding: 0 0 220px 0;
+    }
+    /*Profile*/
+
+    .BuddiesContainer {
+        margin: 80px 0 0px 0;
+    }
+    .Profile {
+        margin: -120px 0 0 0;
+        padding: 0 0 106px 0;
+    }
+    
+    .BuddiesContainer h2 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    .BuddieImgContainer {
+        border: 6px solid #fff;
+    }
+    .Buddies {
+        margin: 70px 0 0 0;
+    }
+    .Buddies h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .Bride-Groom-Details {
+        background-image: url(../img/ProfileDetailsBgSM.png)!important;
+        background-position: top center!important;
+        background-repeat: no-repeat!important;
+        min-height: 714px;
+        height: auto;
+        padding: 0 0 50px 0;
+    }
+    .Bride-Details {
+        padding: 60px 0 50px 35px;
+        background: transparent!important;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-right: -25px;
+    }
+    .Groom-Details {
+        padding: 60px 0 0 35px;
+        background: transparent!important;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+    }
+    .Bride-Groom-Desc{
+        font-size: 20px;
+    }
+    .Buddie {
+        margin: 0 0 10px 0;
+    }
+    .PhotoAlbumWrap {
+        padding: 108px 0 120px 0;
+    }
+    /*OurStory*/
+
+    .OurStoryContainer {
+        padding: 15px 0 200px 0;
+    }
+    
+    .OurStoryPic {
+        padding: 0;
+    }
+    .OurStoryImg {
+        width: 90%!important;
+        margin: 45px auto 0 auto;
+        float: none!important;
+        height: auto;
+        padding: 20px;
+        background: transparent;
+        background-color: #fff;
+        border: 4px solid #e9bf8f;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+
+    }
+    /*Schedule*/
+    
+    .Schedule-Item h2 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    .Schedule-Item {
+        margin: 0 0 50px 0;
+        padding: 0;
+    }
+    .ScheduleContent {
+        background-color: #ffffff;
+        padding: 20px 15px 35px 15px;
+        min-height: 226px;
+        height: auto;
+        color: #7c2a47;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+    /*RSVP-Form*/
+    
+    .RSVP-Form {
+        background-image: url(../img/FormWrapBg2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        margin: 108px 0 0 0;
+    }
+    .RSVP-Form-Overlay {
+        background-color: rgba(95, 50, 68, 0.8);
+        padding: 110px 0 121px 0;
+    }
+    .RSVP-Form-Content {
+        background-color: #ffffff;
+        padding: 35px 0 30px 0;
+        min-height: 300px;
+        height: auto;
+    }
+    .RSVP-Left-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: right;
+        width: 35px!important;
+        min-height: 596px;
+        height: auto;
+        margin-left: 25px;
+    }
+    .RSVP-Right-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: left;
+        width: 35px!important;
+        min-height: 596px;
+        height: auto;
+    }
+    .Name-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .Attend-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .Guest-Field {
+        padding: 6px 20px 5px 20px;
+    }
+    .AddBtnDiv {
+        padding-top: 9px;
+    }
+    #loading { 
+        position: absolute;
+        right: -25px;
+        top: 25px;
+    }
+    .success-msg {
+        display: none;
+        margin: 120px 0 150px 0;
+    }
+    /*FooterWrap*/
+    
+    .CopyRightText {
+        margin: 0 35px 0 0;
+    }
+    .Footer-Link ul li a {
+        padding: 0 20px 0 20px;
+    }
+    /*Gallery-Page*/
+    
+    .Gallery-Header ul li {
+        display: inline;
+    }
+    .Gallery-Header ul li a {
+        margin: 0 20px 0 0;
+    }
+    .Gallery-Container {
+        padding: 0 0 120px 0;
+    }
+    /*Guestbook*/
+    
+    .Guestbook-Sms-Box {
+        width: 530px!important;
+        padding: 46px 80px 30px 95px;
+    }
+    .Guestbook-Sms-Box {
+        background-image: url(../img/Guestbook-Sms-Box.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 530px!important;
+        height: 223px;
+        background-color: transparent;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Guestbook-Messages {
+        padding: 80px 0 100px 0;
+    }
+    .Guestbook-Banner {
+        margin: 0 0 50px 0;
+    }
+    /*AboutPage*/
+
+    .InnerPage {
+        padding-top: 52px;
+        padding-bottom: 60px;
+    }
+
+    .InnerPage p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .AboutProfileText {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .AboutProfileView {
+        padding: 103px 0 125px 0;
+    }
+    .AboutProfileLivesBg1 {
+        margin: 0 0 90px 0;
+    }
+    .AboutProfileLivesBg2 {
+        margin: 0 0 90px 0;
+    }
+    .AboutProfileInfo p {
+        margin: 0 0 40px 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .AboutProfileRight {
+        margin-top: 0px;
+    }
+    
+    .Groom-Info {
+        float: none;
+    }
+    .Groom-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Groom-Text {
+        padding: 60px 25px 50px 25px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 30px auto 24px auto;
+        border-radius: 3px;
+        width: 80%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Bride-Info {
+        float: none!important;
+    }
+    .Bride-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Bride-Text {
+        padding: 60px 25px 50px 25px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 30px auto 24px auto;
+        border-radius: 3px;
+        width: 80%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*OurStoryPage*/
+    
+    .OurStoryImgPattern {
+        padding: 10px!important;
+        background: #fffdfb;
+        box-shadow: 0 0 12px 2px rgba(96, 79, 62, 0.2);
+        border: 2px solid #edd5bd;
+        margin: 10px auto 70px auto;
+        border-radius: 3px;
+        width: 100%;
+        height: 100%;
+        float: none!important;
+        text-align: center;
+    }
+
+    .story-section p.story-description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .OurStory-thanks-Patterns {
+        margin: 10px auto 120px auto;
+    }
+    /*MainCeremonySchedule*/
+
+    .MainCeremonyImage {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    
+    .MainCeremonySchedule {
+        margin: 40px 0 0 0;
+    }
+    .MainCeremonyLocation {
+        margin: 60px 0 60px 0;
+    }
+    .MainCeremonySchedule ul li.desc {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+
+    /*Wedding-Party*/
+
+    .WeddingPartyImage {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .WeddingPartyLocation {
+        margin: 60px 0 50px 0;
+    }
+    .WeddingPartySchedule ul li.desc {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+    
+    .WeddingPartySchedule {
+        margin: 40px 0 0 0;
+    }
+    .story-section h2.story-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #video-block{
+        width: 100%;
+        height: 915px;
+    }
+    .video-container .filter{
+        height: 915px;
+    }
+    .video-container .title-container {
+        position: absolute;
+        top: 220px;
+    }
+
+    /*Contact Page */
+    
+    .ContactMainImage {
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+    .Wedding-Form input , .Wedding-Form textarea {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Wedding-Form label {
+        margin: 0 0 15px 0;
+    }
+    .form-group {
+        margin: 0 0 30px 0;
+    }
+    .page-height {
+        height: 60px;
+    }
+}
+/* -----------------------
+Medium Devices, Desktops
+-------------------------- */
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 175px;
+        line-height: 155px;
+        margin: 0;
+        padding: 0;
+    }
+    .Header-Wrap h1 {
+        font-size: 70px;
+        line-height: 62px;
+    }
+    h2 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .Header-Overlay {
+        padding-bottom: 248px
+    }
+    .homepage-hero-module {
+        margin-bottom: -220px;
+    }
+    .TopMenu {
+        padding: 0 0 170px 0;
+    }
+    .SubHeading-inner {
+        padding: 0;
+    }
+    .SubHeading h2 {
+        font-size: 30px;
+    }
+    .SubHeading {
+        margin: 30px 0px 20px 0px;
+    }
+    .SubHeading h2:before, .SubHeading h2:after {
+        width: 36%;
+    }
+    .SubHeading h2:before {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+        /* IE6-9 */
+        
+        left: 0;
+    }
+    .SubHeading h2:after {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+        /* IE6-9 */
+        
+        right: 0;
+        left: auto;
+    }
+    .SubHeading h2 span {
+        padding: 0px 0px;
+    }
+    .Date {
+        font-size: 41px;
+    }
+    blockquote {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .noUi-target {
+        width: 160px!important;
+    }
+    .Navigation-menu {
+        padding: 0 0 220px 0;
+    }
+    /*Profile*/
+
+    .BuddiesContainer {
+        margin: 80px 0 0px 0;
+    }
+    .Profile {
+        margin: -120px 0 0 0;
+        padding: 0 0 106px 0;
+    }
+    
+    .BuddiesContainer h2 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .BuddieImgContainer {
+        border: 6px solid #fff;
+    }
+    .Buddies {
+        margin: 70px 0 0 0;
+    }
+    .Buddies h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .Bride-Groom-Details {
+        background-image: url(../img/ProfileDetailsBgMd.png)!important;
+        background-position: top center!important;
+        background-repeat: no-repeat!important;
+        min-height: 714px;
+        height: auto;
+        padding: 0 0 50px 0;
+    }
+    .Bride-Details {
+        padding: 60px 0 50px 35px;
+        background: transparent!important;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-right: 0;
+    }
+    .Groom-Details {
+        padding: 60px 0 0 0px;
+        background: transparent!important;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+    }
+    .Bride-Groom-Desc{
+        font-size: 20px;
+    }
+    .Buddie {
+        margin: 0 0 0px 0;
+    }
+    .PhotoAlbumWrap {
+        padding: 108px 0 120px 0;
+    }
+    /*OurStory*/
+
+    .OurStoryContainer {
+        padding: 15px 0 200px 0;
+    }
+    
+    .OurStoryText {
+        padding: 35px 0 0 0;
+    }
+    .OurStory-Patterns-Img {
+        margin: 25px auto 0 auto;
+    }
+    .OurStoryBtn {
+        margin: 20px 0 0 0;
+    }
+    .OurStoryPic {
+        padding: 54px 0 0 55px;
+        width: 703px;
+        height: 470px;
+    }
+    .OurStoryImg {
+        background-image: url(../img/OurStoryBg.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        height: 526px;
+        float: right!important;
+        margin-top: 0;
+        width: 79%!important;
+        padding: 0;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    /*Schedule*/
+    
+    .Schedule-Item h2 {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .Schedule-Item {
+        margin: 0 0 50px 0;
+        padding: 0 15px 0 15px;
+    }
+    .ScheduleContent {
+        background-color: #ffffff;
+        padding: 20px 15px 35px 15px;
+        min-height: 226px;
+        height: auto;
+        color: #7c2a47;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+    /*RSVP-Form*/
+    
+    .RSVP-Form {
+        background-image: url(../img/FormWrapBg2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        margin: 108px 0 0 0;
+    }
+    .RSVP-Form-Overlay {
+        background-color: rgba(95, 50, 68, 0.8);
+        padding: 110px 0 121px 0;
+    }
+    .RSVP-Form-Content {
+        background-color: #ffffff;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        min-height: 300px;
+        height: auto;
+    }
+    .RSVP-Left-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: right;
+        width: 77px!important;
+        min-height: 430px;
+        height: auto;
+        margin-left: 0;
+    }
+    .RSVP-Right-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: left;
+        width: 77px!important;
+        min-height: 430px;
+        height: auto;
+    }
+    .Name-Field {
+        padding: 35px 49px 35px 41px;
+    }
+    .Attend-Field {
+        padding: 35px 79px 35px 9px;
+    }
+    .Guest-Field {
+        padding: 35px 54px 35px 0;
+    }
+    .AddBtnDiv {
+        padding-top: 18px;
+    }
+    #loading { 
+        position: absolute;
+        right: -25px;
+        top: 35px;
+    }
+    .success-msg {
+        display: none;
+        margin: 40px 0 0 0;
+    }
+    /*FooterWrap*/
+    
+    .CopyRightText {
+        margin: 0 35px 0 0;
+    }
+    .Footer-Link ul li a {
+        padding: 0 20px 0 20px;
+    }
+    /*Gallery-Page*/
+    
+    .Gallery-Header ul li {
+        display: inline;
+    }
+    .Gallery-Header ul li a {
+        margin: 0 20px 0 0;
+    }
+    .Gallery-Container {
+        padding: 0 0 120px 0;
+    }
+    /*Guestbook*/
+    
+    .Guestbook-Sms-Box {
+        width: 530px!important;
+        padding: 46px 80px 30px 95px;
+    }
+    .Guestbook-Sms-Box {
+        background-image: url(../img/Guestbook-Sms-Box.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 530px!important;
+        height: 223px;
+        background-color: transparent;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Guestbook-Messages {
+        padding: 80px 0 100px 0;
+    }
+    .Guestbook-Banner {
+        margin: 0 0 50px 0;
+    }
+    /*AboutPage*/
+
+    .InnerPage {
+        padding-top: 52px;
+        padding-bottom: 60px;
+    }
+    .InnerPage p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .AboutProfileText {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .AboutProfileView {
+        padding: 103px 0 125px 0;
+    }
+    .AboutProfileLivesBg1 {
+        margin: 0 0 90px 0;
+    }
+    .AboutProfileLivesBg2 {
+        margin: 0 0 90px 0;
+    }
+    .AboutProfileInfo p {
+        margin: 0 0 40px 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .AboutProfileRight {
+        margin-top: 0px;
+    }
+    
+    .Groom-Info {
+        float: left;
+    }
+    .Groom-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Groom-Text {
+        background-image: url(../img/about-chat-bgL.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding: 60px 0 50px 65px!important;
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        margin: 0 0 0 0;
+        border-radius: 3px;
+        width: 530px;
+        min-height: 200px;
+        height: auto;
+        float: right!important;
+        text-align: left;
+        padding: 50px 20px 0 40px!important;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Bride-Info {
+        float: right!important;
+    }
+    .Bride-Img-Wrap {
+        width: 160px!important;
+        margin: 0 auto 30px auto!important;
+        float: none!important;
+    }
+    .Bride-Text {
+        background-image: url(../img/about-chat-bgR.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding: 60px 0 50px 65px!important;
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        margin: 0 0 0 0;
+        border-radius: 3px;
+        width: 530px;
+        min-height: 200px;
+        height: auto;
+        float: left!important;
+        text-align: left;
+        padding: 50px 20px 0 40px!important;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*OurStoryPage*/
+    
+    .OurStoryImgPattern {
+        background-image: url(../img/OurStoryBg.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        width: 758px;
+        height: 526px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .OurStoryPagePic {
+        padding: 44px 10px 10px 45px;
+        width: 703px;
+        height: 470px;
+    }
+
+    .story-section p.story-description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .OurStory-thanks-Patterns {
+        margin: 10px auto 120px auto;
+    }
+    /*MainCeremonySchedule*/
+    
+    .MainCeremonySchedule {
+        margin: 0px 0 0 0;
+    }
+    .MainCeremonyImage {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .MainCeremonyLocation {
+        margin: 60px 0 60px 0;
+    }
+    .MainCeremonySchedule ul li.desc {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+    /*Wedding-Party*/
+    
+    .WeddingPartyImage {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .WeddingPartyLocation {
+        margin: 60px 0 50px 0;
+    }
+    .WeddingPartySchedule ul li.desc {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+
+    .WeddingPartySchedule {
+        margin: 0px 0 0 0;
+    }
+
+    .story-section h2.story-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+     #video-block{
+        width: 100%;
+        height: 915px;
+    }
+    .video-container .filter{
+        height: 915px;
+    }
+    .video-container .title-container {
+        position: absolute;
+        top: 220px;
+    }
+
+    /*Contact Page */
+    
+    .ContactMainImage {
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+    .Wedding-Form input, .Wedding-Form textarea  {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Wedding-Form label {
+        margin: 0 0 15px 0;
+    }
+    .form-group {
+        margin: 0 0 30px 0;
+    }
+    .page-height {
+        height: 60px;
+    }
+}
+/* --------------------------------------------------
+Large Devices, Wide Screens
+----------------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 175px;
+        line-height: 155px;
+        margin: 0;
+        padding: 0;
+    }
+    .Header-Wrap h1 {
+        font-size: 70px;
+        line-height: 62px;
+    }
+    h2 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .TopMenu {
+        padding: 0 0 170px 0;
+    }
+    .SubHeading-inner {
+        padding: 0;
+    }
+    .Header-Overlay {
+        padding-bottom: 248px
+    }
+    .homepage-hero-module {
+        margin-bottom: -220px;
+    }
+    .SubHeading {
+        margin: 30px 0px 20px 0px;
+    }
+    .SubHeading h2 {
+        font-size: 30px;
+    }
+    .SubHeading h2:before, .SubHeading h2:after {
+        width: 36%;
+    }
+    .SubHeading h2:before {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+        /* IE6-9 */
+        
+        left: 0;
+    }
+    .SubHeading h2:after {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6+ */
+        
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+        /* Chrome,Safari4+ */
+        
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10+,Safari5.1+ */
+        
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Opera 11.10+ */
+        
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* IE10+ */
+        
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C */
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+        /* IE6-9 */
+        
+        right: 0;
+        left: auto;
+    }
+    .SubHeading h2 span {
+        padding: 0px 0px;
+    }
+    .Date {
+        font-size: 56px;
+    }
+    blockquote {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .noUi-target {
+        width: 180px!important;
+    }
+    .Navigation-menu {
+        padding: 0 0 220px 0;
+    }
+    /*Profile*/
+
+    .BuddiesContainer {
+        margin: 80px 0 0px 0;
+    }
+    .Profile {
+        margin: -120px 0 0 0;
+        padding: 0 0 106px 0;
+    }
+    
+    .BuddiesContainer h2 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .Buddies {
+        margin: 70px 0 0 0;
+    }
+    .Buddies h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .Bride-Groom-Details {
+        background-image: url(../img/ProfileDetailsBg.png)!important;
+        background-position: top center!important;
+        background-repeat: no-repeat!important;
+        min-height: 714px;
+        height: auto;
+        padding: 0 0 84px 0;
+    }
+    .Bride-Details {
+        padding: 65px 0 10px 35px;
+        background: transparent!important;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-right: 0;
+    }
+    .Groom-Details {
+        padding: 65px 0 0 35px;
+        background: transparent!important;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+    }
+    .Bride-Groom-Desc{
+        font-size: 20px;
+    }
+    .Buddie {
+        margin: 0 0 0 0;
+    }
+    .BuddieImgContainer {
+        border: 6px solid #fff;
+    }
+    .PhotoAlbumWrap {
+        padding: 108px 0 120px 0;
+    }
+    /*OurStory*/
+
+    .OurStoryContainer {
+        padding: 15px 0 200px 0;
+    }
+    
+    .OurStoryText {
+        padding: 70px 0 0 0;
+    }
+    .OurStory-Patterns-Img {
+        margin: 50px auto 0 auto;
+    }
+    .OurStoryBtn {
+        margin: 60px 0 0 0;
+    }
+    .OurStoryPic {
+        padding: 54px 0 0 55px;
+        width: 703px;
+        height: 470px;
+    }
+    .OurStoryImg {
+        background-image: url(../img/OurStoryBg.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        height: 526px;
+        float: right!important;
+        margin-top: 0;
+        width: 66.66666667%!important;
+        padding: 0;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    /*Schedule*/
+    
+    .Schedule-Item h2 {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .Schedule-Item {
+        margin: 0 0 50px 0;
+        padding: 0 15px 0 15px;
+    }
+    .ScheduleContent {
+        background-color: #ffffff;
+        padding: 20px 15px 35px 15px;
+        min-height: 226px;
+        height: auto;
+        color: #7c2a47;
+        font-size: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+    /*RSVP-Form*/
+    
+    .RSVP-Form {
+        background-image: url(../img/FormWrapBg2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        margin: 108px 0 0 0;
+    }
+    .RSVP-Form-Overlay {
+        background-color: rgba(95, 50, 68, 0.8);
+        padding: 110px 0 121px 0;
+    }
+    .RSVP-Form-Content {
+        background-color: #ffffff;
+        padding-top: 55px;
+        padding-bottom: 30px;
+        min-height: 300px;
+        height: auto;
+    }
+    .RSVP-Left-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: right;
+        width: 77px!important;
+        min-height: 415px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .RSVP-Right-Pattern {
+        background-image: url(../img/PatternBg.jpg);
+        background-repeat: repeat-y;
+        background-position: left;
+        width: 77px!important;
+        min-height: 415px;
+        height: auto;
+    }
+    .Name-Field {
+        padding: 35px 49px 0px 41px;
+    }
+    .Attend-Field {
+        padding: 35px 79px 0px 9px;
+    }
+    .Guest-Field {
+        padding: 35px 54px 0px 0;
+    }
+    .AddBtnDiv {
+        padding-top: 18px;
+    }
+    #loading { 
+        position: absolute;
+        right: -10px;
+        top: 35px;
+    }
+    .success-msg {
+        display: none;
+        margin: 0;
+    }
+    /*FooterWrap*/
+    
+    .CopyRightText {
+        margin: 0 35px 0 0;
+    }
+    .Footer-Link ul li a {
+        padding: 0 20px 0 20px;
+    }
+    /*Gallery-Page*/
+    
+    .Gallery-Header ul li {
+        display: inline;
+    }
+    .Gallery-Header ul li a {
+        margin: 0 20px 0 0;
+    }
+    .Gallery-Container {
+        padding: 0 0 120px 0;
+    }
+    /*Guestbook*/
+    
+    .Guestbook-Sms-Box {
+        width: 530px!important;
+        padding: 46px 80px 30px 95px;
+    }
+    .Guestbook-Sms-Box {
+        background-image: url(../img/Guestbook-Sms-Box.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 530px!important;
+        height: 223px;
+        background-color: transparent;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Guestbook-Messages {
+        padding: 80px 0 100px 0;
+    }
+    .Guestbook-Banner {
+        margin: 0 0 50px 0;
+    }
+
+    /*AboutPage*/
+
+    .AboutProfileText {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .AboutProfileView {
+        padding: 103px 0 125px 0;
+    }
+    .AboutProfileLivesBg1 {
+        margin: 0 0 90px 0;
+    }
+    .AboutProfileLivesBg2 {
+        margin: 0 0 90px 0;
+    }
+    .AboutProfileInfo p {
+        margin: 0 0 40px 0;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .AboutProfileRight {
+        margin-top: 0px;
+    }
+    .InnerPage {
+        padding-top: 52px;
+        padding-bottom: 60px;
+    }
+    .InnerPage p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .Groom-Info {
+        float: left;
+    }
+    .Groom-Img-Wrap {
+        width: 160px!important;
+        margin: 12px auto 30px auto!important;
+        float: none!important;
+    }
+    .Groom-Text {
+        background-image: url(../img/about-chat-bgL.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding: 60px 0 50px 65px!important;
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        margin: 0 0 0 0;
+        border-radius: 3px;
+        width: 530px;
+        min-height: 200px;
+        height: auto;
+        float: right!important;
+        text-align: left;
+        padding: 50px 20px 0 40px!important;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Bride-Info {
+        float: right!important;
+    }
+    .Bride-Img-Wrap {
+        width: 160px!important;
+        margin: 12px auto 30px auto!important;
+        float: none!important;
+    }
+    .Bride-Text {
+        background-image: url(../img/about-chat-bgR.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding: 60px 0 50px 65px!important;
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        margin: 0 0 0 0;
+        border-radius: 3px;
+        width: 530px;
+        min-height: 200px;
+        height: auto;
+        float: left!important;
+        text-align: left;
+        padding: 50px 20px 0 40px!important;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*OurStoryPage*/
+    
+    .OurStoryImgPattern {
+        background-image: url(../img/OurStoryBg.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        width: 758px;
+        height: 526px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .OurStoryPagePic {
+        padding: 44px 10px 10px 45px;
+        width: 703px;
+        height: 470px; 
+    }
+    .story-section p.story-description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .OurStory-thanks-Patterns {
+        margin: 10px auto 120px auto;
+    }
+    /*MainCeremonySchedule*/
+
+    .MainCeremonyImage {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    
+    .MainCeremonySchedule {
+        margin: 10px 0 0 0;
+    }
+    .MainCeremonyLocation {
+        margin: 60px 0 60px 0;
+    }
+    .MainCeremonySchedule ul li.desc {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+
+    /*Wedding-Party*/
+
+    .WeddingPartyImage {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .WeddingPartyLocation {
+        margin: 60px 0 50px 0;
+    }
+    
+    .WeddingPartySchedule {
+        margin: 10px 0 0 0;
+    }
+    .WeddingPartySchedule ul li.desc {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+    .story-section h2.story-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #video-block{
+        width: 100%;
+        height: 915px;
+    }
+    .video-container .filter{
+        height: 915px;
+    }
+    .video-container .title-container {
+        position: absolute;
+        top: 220px;
+    }
+
+    /*Contact Page */
+
+    .ContactMainImage {
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+    .Wedding-Form input, .Wedding-Form textarea  {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Wedding-Form label {
+        margin: 0 0 15px 0;
+    }
+    .form-group {
+        margin: 0 0 30px 0;
+    }
+    .page-height {
+        height: 60px;
+    }
+}

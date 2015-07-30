@@ -1,0 +1,2111 @@
+/*------------------------------------------------------------------
+Project:    Wedding
+Version:    1.0
+-------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------
+
+01. General Styles
+02. Preloader
+03. Header 
+04. Slide Menu
+05. Bride-Groom Profile
+06. Our Story
+07. Schedule Wrap
+08. RSVP Form
+09. Gallery
+10. Footer
+11. About Page
+12. Gallery Page
+13. Guestbook Page
+14. Contact Page
+15. Story Page
+16. Main Ceremony Page
+17. Wedding Party Page
+18. Video Section
+
+
+-------------------------------------------------------------------*/
+
+
+    
+/*--------------------------------------------------
+    01. General Styles
+---------------------------------------------------*/
+
+body {
+    font-family: 'Vidaloka', serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #464646;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdfb;
+}
+h1 {
+    font-family: 'Vidaloka', serif!important;
+    font-size: 175px;
+    line-height: 155px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+h1 a:hover, h1 a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Vidaloka', serif;
+    font-size: 56px;
+    line-height: 56px;
+    color: #a63b61;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color: #e9ba85;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    color: #e9ba85;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+h5 {
+    font-family: 'Vidaloka', serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #e9ba85;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.border-radius {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+img a {
+    border: none;
+}
+.col-centered {
+    float: none!important;
+    margin: 0 auto!important;
+}
+button:focus {
+    outline: none!important;
+}
+button a:focus {
+    border: 0;
+    outline: none!important;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus {
+    outline: 0!important;
+}
+textarea:focus {
+    outline: 0!important;
+}
+.carousel-indicators {
+    bottom: 105px;
+}
+.carousel-indicators ol {
+    text-align: center;
+}
+.carousel-indicators li {
+    text-indent: 0;
+    color: #f0d2b2;
+    font-size: 30px;
+    margin: 0 20px 0 0!important;
+}
+.carousel-indicators li {
+    opacity: .6;
+}
+.carousel-indicators .active {
+    opacity: 1!important;
+}
+/*SVG*/
+
+.facebook-Padding {
+    padding: 10px 6px 9px 7px!important;
+}
+.icon-pattern-color {
+    color: #e9ba85;
+    font-size: 34px;
+}
+.live-icon {
+    font-size: 38px;
+    color: #e9ba85;
+}
+
+/*--------------------------------------------------------------
+02. Preloader
+--------------------------------------------------------------*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+#status {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    
+    background-image: url(../img/preloader.gif);
+    /* path to your loading animation */
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -32px 0 0 -32px;
+}
+
+
+/* ---------------------------
+ 03. Header
+------------------------------ */
+
+.Header-Wrapper {
+    background-image: url(../img/BgTop3.jpg);
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding-bottom: 0;
+    background-attachment: fixed;
+}
+.Header-Wrapper2 {
+    background-image: url(../img/home-banner2.jpg);
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding-bottom: 0;
+    background-attachment: fixed;
+}
+.Header-Overlay {
+    background-color: rgba(95, 50, 68, 0.8);
+    padding-top: 0;
+    padding-bottom: 295px;
+}
+.Navigation-menu {
+    padding: 0 0 220px 0;
+}
+.TopMenu {
+    padding: 0 0 170px 0;
+}
+.SubHeading {
+    margin: 30px 0px 20px 0px;
+}
+.SubHeading-inner {
+    padding: 15px 40px;
+}
+.SubHeading h2 {
+    display: inline-block;
+    font-family: 'Vidaloka', serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.SubHeading h2:before, .SubHeading h2:after {
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 36%;
+    position: absolute;
+    top: 0.70em;
+    z-index: 1;
+}
+.SubHeading h2:before {
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    /* Opera 11.10+ */
+    /* IE10+ */
+    
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+    
+    left: 0;
+}
+.SubHeading h2:after {
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    /* Opera 11.10+ */
+    /* IE10+ */
+    
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 1)), to(rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+    /* IE6-9 */
+    
+    right: 0;
+    left: auto;
+}
+.SubHeading h2 span {
+    padding: 0px 30px;
+    position: relative;
+    z-index: 2;
+}
+.Date {
+    font-family: 'Vidaloka', serif;
+    color: #ffffff;
+    font-size: 56px;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0px;
+}
+/* Header For all pages exclude home */
+
+.Header-Wrap {
+    background-image: url(../img/BgTop3.jpg);
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding-bottom: 0;
+    background-attachment: fixed;
+}
+.Header-Wrap-Ovelay {
+    background-color: rgba(95, 50, 68, 0.8);
+    padding-top: 0;
+    padding-bottom: 135px;
+}
+.Header-Wrap h1 {
+    font-family: 'Vidaloka', serif!important;
+    font-size: 70px;
+    line-height: 62px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.Header-Wrap h2 {
+    font-family: 'Vidaloka', serif!important;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-style: italic;
+}
+.Header-Wrap .Date {
+    font-family: 'Vidaloka', serif!important;
+    font-size: 32px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------
+04. Slide Menu
+------------------------------ */
+
+.wedding-menu {
+    /*background-color: rgba(91, 49, 64, .9);*/
+    
+    position: fixed;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.wedding-menu-bg {
+    background-color: rgba(91, 49, 64, .9);
+    margin: 0;
+    padding: 40px 0 60px 0;
+}
+/* Orientation-dependent styles for the content of the menu */
+
+.wedding-menu-horizontal {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.wedding-menu-top {
+    top: -100%;
+}
+.wedding-menu-top.wedding-menu-open {
+    top: 0px;
+}
+.wedding-menu ul {
+    margin: 0 auto;
+    width: 200px;
+    padding: 0;
+}
+.wedding-menu ul li {
+    list-style: none;
+    display: initial;
+    text-align: center;
+}
+.wedding-menu ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 70px;
+    color: #feeedf;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 0 0 0;
+    text-decoration: none;
+}
+
+/* Sub Menus */
+
+.wedding-menu .categories {
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    -webkit-transition: opacity 800ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: opacity 800ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.wedding-menu .categories li {
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -webkit-transition: opacity 500ms cubic-bezier(0.455, 0.03, 0, 1);
+    transition: opacity 500ms cubic-bezier(0.455, 0.03, 0, 1);
+    -webkit-perspective: 1000;
+    -ms-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-delay: 0;
+    transition-delay: 0;
+    width: 200px!important;
+    text-align: center!important;
+}
+.wedding-menu .categories li a {
+    display: block;
+}
+.wedding-menu .categories li a:hover, .categories li a.is-active, .categories li a.active {
+    color: #feeedf;
+}
+.wedding-menu .categories .dropdown .submenu {
+    overflow: hidden;
+    max-height: 0;
+    margin: 0;
+    transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -webkit-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    text-align: center;
+}
+.wedding-menu .categories .dropdown .submenu li {
+    opacity: 1!important;
+    text-transform: none!important;
+    letter-spacing: 0!important;
+    text-align: center;
+}
+.wedding-menu .categories .dropdown .submenu li:first-child {
+    margin-top: 10px;
+}
+.wedding-menu .categories .dropdown .submenu li:last-child {
+    margin-bottom: 15px;
+}
+.wedding-menu .categories .dropdown .submenu li {
+    text-align: center;
+}
+.wedding-menu .categories .dropdown .submenu li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #feeedf;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    text-align: center;
+}
+.wedding-menu .categories .dropdown:hover .submenu {
+    max-height: 500px;
+    transition: all 1.2s ease-in-out 0.1s;
+    -moz-transition: all 1.2s ease-in-out 0.1s;
+    -webkit-transition: all 1.2s ease-in-out 0.1s;
+    -o-transition: all 1.2s ease-in-out 0.1s;
+}
+.SlideMenu {
+    background-color: #cf5658;
+    width: 100%;
+    height: 3px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.OpenBtn {
+    width: 94px;
+    float: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -47px;
+    z-index: 999;
+}
+.Menu-CloseBrd {
+    background-color: #cf5658;
+    width: 100%;
+    height: 3px;
+}
+.Menu-Close {
+    width: 94px;
+    margin: -1px auto 0 auto;
+    float: none;
+    cursor: pointer;
+}
+
+/* ---------------------------
+ 05. Bride-Groom Profile
+------------------------------ */
+
+.Profile {
+    margin: -150px 0 0 0;
+    padding: 0 0 106px 0;
+}
+.Profile h2 {
+    font-family: 'Vidaloka', serif;
+    color: #a63b61;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.Bride-Groom-Details {
+    background-image: url(../img/ProfileDetailsBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 714px;
+    margin: 104px 0 80px 0;
+    padding: 0 0 84px 0;
+}
+.Bride-Details {
+    padding: 60px 0 0 35px;
+}
+.Groom-Details {
+    padding: 60px 35px 0 0;
+}
+.Bride-Groom-Avatar {
+    margin: 0 0 25px 0;
+}
+.Bride-Groom-Avatar-border {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    width: 160px;
+    height: 160px;
+}
+.Bride-Groom-Desc {
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #716b66;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.ProfileBtn {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cf5658;
+    font-weight: 400;
+    border: 1px solid #cf5658;
+    background-color: transparent;
+    text-transform: uppercase;
+    height: 50px!important;
+    width: 160px!important;
+    padding-top: 11px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.ProfileBtn:focus, .ProfileBtn:hover {
+    border: 1px solid #cf5658!important;
+    background-color: #fff7ee!important;
+    color: #cf5658!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.BuddiesContainer {
+    margin: 100px 0 0px 0;
+}
+.Buddies {
+    margin: 70px 0 0 0;
+}
+.BuddiesContainer h2 {
+    font-family: 'Vidaloka', serif;
+    font-size: 56px;
+    line-height: 64px;
+    color: #a63b61;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.Buddies h2 {
+    font-family: 'Vidaloka', serif;
+    font-size: 28px;
+    line-height: 35px;
+    color: #a63b61;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.Buddie {
+    text-align: center;
+}
+.BuddieImgContainer {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px auto;
+    padding: 0;
+    float: none;
+    border: 6px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.BuddieImg {
+    width: 100%;
+    height: 100%;
+    border: 0!important;
+}
+.ProfileSocialIcon ul {
+    margin: 30px 0 34px 0;
+    padding: 0;
+}
+.ProfileSocialIcon ul li {
+    display: inline;
+    list-style: none;
+    color: #eed5bc;
+    margin: 0 20px 0 0;
+}
+.ProfileSocialIcon ul li a {
+    color: #eed5bc;
+    text-decoration: none;
+    padding: 7px 8px 7px 9px;
+    border: 2px solid #eed5bc;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.ProfileSocialIcon ul li:last-child {
+    margin: 0 0 0 0;
+}
+.ProfileSocialIcon ul li a:hover {
+    color: #fff;
+    background-color: #eed5bc;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/* ---------------------------
+ 06. Our Story
+------------------------------ */
+
+
+.OurStoryContainer {
+    padding: 15px 0 200px 0;
+    margin: 0 0 0 0;
+}
+.OurStoryBg {
+    height: 500px;
+    background-color: #f0eeec;
+    position: relative;
+    width: 100%;
+    margin-bottom: -513px;
+}
+.OurStoryText {
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+.OurStoryText p {
+    margin: 15px 0 0 0;
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #716b66;
+    font-weight: 400;
+}
+.OurStoryBtn {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    height: 50px;
+    width: 160px;
+    color: #cf5658;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #cf5658;
+    margin: 50px 0 0 0;
+    padding-top: 12px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.OurStoryBtn:focus, .OurStoryBtn:hover {
+    border: 1px solid #cf5658!important;
+    background-color: #fff7ee!important;
+    color: #cf5658!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.OurStoryImg {
+    background-image: url(../img/OurStoryBg.png);
+    background-repeat: no-repeat;
+    height: 526px;
+    float: right;
+}
+.OurStoryPic {
+    padding: 54px 0 0 39px;
+}
+.OurStory-Patterns-Img {
+    width: 140px;
+    height: 32px;
+    margin: 50px auto 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* ---------------------------
+ 07. ScheduleWrap
+------------------------------ */
+
+.ScheduleWrap {
+    margin-top: 32px;
+}
+.ScheduleBg {
+    height: 410px;
+    background-color: #f0eeec;
+    position: relative;
+    width: 100%;
+    margin-bottom: -527px;
+}
+.Schedule-Item {
+    padding-left: 19px;
+}
+.Schedule-Item h2 {
+    background-image: url(../img/Schedule-Item-h2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 56px;
+    color: #fffdfb;
+    font-family: 'Vidaloka', serif;
+    line-height: 60px;
+    text-align: center;
+    padding: 31px 0 28px 0;
+    margin: 0;
+    letter-spacing: 3px;
+    background-position: center top;
+}
+.Schedule-Item h3 {
+    color: #e9ba85;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.ScheduleText {
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #716b66;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin: 0 0 20px 0;
+}
+.Schedule-Item-Inner1 {
+    background-image: url(../img/Schedule-Item-Inner1.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center top;
+    padding: 110px 20px 20px 20px;
+}
+.Schedule-Item-Inner2 {
+    background-image: url(../img/Schedule-Item-Inner2.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center top;
+    padding: 110px 20px 20px 20px;
+}
+.ScheduleContent {
+    background-color: #ffffff;
+    padding: 18px 15px 15px 15px;
+    min-height: 206px;
+    height: auto;
+    color: #7c2a47;
+    font-size: 20px;
+    font-weight: 300;
+    width: 508px;
+}
+.ScheduleBtm {
+    width: 162px;
+    height: 52px;
+    margin: 0 auto 0 auto;
+    float: none;
+}
+.DetailsBtn {
+    color: #cf5658!important;
+    border-color: #cf5658!important;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.DetailsBtn:active, .OurStoryBtn:focus, .DetailsBtn:hover {
+    border: 1px solid #cf5658!important;
+    background-color: #fff7ee!important;
+    color: #cf5658!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/* ---------------------------
+ 08. RSVP Form
+------------------------------ */
+
+
+.RSVP-Form {
+    background-image: url(../img/FormWrapBg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    margin: 108px 0 0 0;
+    background-attachment: fixed!important;
+}
+.RSVP-Form-Overlay {
+    background-color: rgba(95, 50, 68, 0.8);
+    padding: 110px 0 121px 0;
+}
+.RSVP-Form-Bg {
+    height: 390px;
+    background-color: #f0eeec;
+    position: relative;
+    width: 100%;
+    margin-bottom: -527px;
+}
+.RSVP-Form-Container {
+    background-image: none;
+    background: transparent;
+    padding: 0;
+}
+.RSVP-Left-Pattern {
+    background-image: url(../img/PatternBg.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 77px!important;
+    min-height: 415px;
+    height: auto;
+    margin: 0 0 0 0;
+}
+.RSVP-Form-Content {
+    background-color: #ffffff;
+    padding: 53px 0 30px 0;
+}
+.RSVP-Right-Pattern {
+    background-image: url(../img/PatternBg.jpg);
+    background-repeat: repeat-y;
+    background-position: left;
+    width: 77px!important;
+    min-height: 415px;
+    height: auto;
+    margin: 0 0 0 0;
+}
+.WeddingMenu select {
+    background: #fff7ee!important;
+    width: 100%;
+    height: 52px;
+    border: 1px solid #e9ba85!important;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+    color: #716b66;
+}
+.WeddingMenu select option {
+    background: #fff7ee!important;
+    width: 100%;
+    
+}
+.WeddingMenu select:focus {
+    outline: none;
+}
+.FormLabel {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #e9ba85;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+    padding: 0 0 9px 0;
+}
+.FormField {
+    font-family: 'Vidaloka', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #716b66!important;
+    background-color: #fff7ee;
+    border: 1px solid #e9ba85;
+    height: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+.FormField::-webkit-input-placeholder {
+    color: #716b66!important;
+}
+.FormField:-moz-placeholder {
+    /* Firefox 18- */
+    
+    color: #716b66!important;
+}
+.FormField::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    color: #716b66!important;
+}
+.FormField:-ms-input-placeholder {
+    color: #716b66!important;
+}
+button:focus {
+    outline: none!important;
+}
+button a:focus {
+    border: 0;
+    outline: none!important;
+}
+input[type="text"]:focus {
+    outline: 0!important;
+}
+textarea:focus {
+    outline: 0!important;
+}
+.FormField select {
+    height: 50px;
+    border: 1px solid #e9ba85;
+    color: #4f3335;
+    font-size: 18px;
+    font-family: 'Vidaloka', serif;
+    background-color: #fff7ee;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.FormField:hover, .FormField:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+}
+.Name-Field {
+    padding: 35px 49px 35px 41px;
+}
+.Attend-Field {
+    padding: 35px 79px 35px 9px;
+}
+.Guest-Field {
+    padding: 35px 54px 35px 0;
+}
+.AddBtnDiv {
+    float: none !important;
+    margin: 0 auto !important;
+    padding-top: 34px;
+}
+.AddBtn {
+    color: #cf5658!important;
+    border-color: #cf5658!important;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.AddBtn:focus, .AddBtn:hover {
+    color: #cf5658!important;
+    background-color: #fff7ee!important;
+    border: 1px solid #cf5658!important;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Range2 {
+    background-color: #fff7ee;
+    border: 1px solid #e9ba85;
+    margin-top: 15px;
+}
+input[type="range"] {
+    background: #fff7ee;
+    width: 130px;
+    height: 6px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -wekkit-border-radius: 8px;
+    -webkit-box-shadow: inset 0px 0px 1px 1px #e9ba85, 0px 1px 1px 0px #e9ba85;
+    box-shadow: inset 0px 0px 1px 1px #e9ba85, 0px 1px 1px 0px #e9ba85;
+    margin-top: 20px;
+}
+input[type="range"]:focus, input[type="range"]:hover {
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/RangeSlider.png);
+    background-repeat: no-repeat;
+}
+input[type="range"]::-webkit-slider-thumb:hover {} .RangeBox {
+    margin-left: 0;
+    margin-top: 4px;
+    background-color: #fff7ee;
+    border: 1px solid #e9ba85;
+    text-align: center;
+    color: #716b66;
+    width: 45px;
+    height: 40px;
+}
+input.error {
+    border: 1px solid #FF0000 !important;
+}
+textarea.error {
+    border: 1px solid #FF0000 !important;
+}
+label.error, div.error {
+    font-weight: normal;
+    color: #FF0000 !important;
+    display: none!important;
+}
+.thanks-img {
+    width: 90px;
+    height: 90px;
+    margin: 5px auto 30px auto;
+}
+.form-success-Patterns {
+    width: 140px;
+    height: 32px;
+    margin: 10px auto 64px auto;
+}
+.RangeBox:focus, .RangeBox:hover {
+    outline: none;
+}
+.RangeBoxArow {
+    background-image: url(../img/RangeBoxArow.jpg);
+    background-position: left center;
+    width: 7px;
+    height: 12px;
+    position: absolute;
+    margin-left: -6px;
+    margin-top: -26px;
+}
+.RangeBoxPadding {
+    padding-left: 0;
+}
+#loading {
+    display: none;
+    position: absolute;
+    right: -10px;
+    top: 35px;
+}
+#contact-loading {
+    display: none;
+    position: relative;
+    left: 230px;
+    top: -38px;
+}
+.success-msg {
+    display: none;
+}
+
+
+
+/* ---------------------------
+ 09. Gallery 
+------------------------------ */
+
+.PhotoAlbumWrap {
+    padding: 108px 0 120px 0;
+}
+.Photo-Album-Inner {
+    padding: 35px 0 0 0;
+}
+.Photo-Album-Inner .Item1 {
+    margin: 15px 0 15px 0;
+}
+.Photo-Album-Inner .Item1-Pic {} .Photo-Album-Inner .Item2 {
+    margin: 15px 0 15px 0;
+}
+.Photo-Album-Inner .Item2-Pic {} .Photo-Album-Inner .Item3 {
+    margin: 15px 0 15px 0;
+}
+.Photo-Album-Inner .Item3-Pic {} .Photo-Album-Inner .Item4 {
+    margin: 15px 0 15px 0;
+}
+.Photo-Album-Inner .Item4-Pic {} .PhotoAlbumBtnDiv {
+    width: 235px;
+    height: 50px;
+    margin: 45px auto 0 auto!important;
+    float: none!important;
+}
+.PhotoAlbumBtn {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #cf5658;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #cf5658;
+    width: 235px;
+    height: 50px;
+    padding-top: 11px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.PhotoAlbumBtn:focus, .PhotoAlbumBtn:hover {
+    border: 1px solid #cf5658!important;
+    background-color: #fff7ee!important;
+    color: #cf5658!important;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Patterns-Img {
+    width: 140px;
+    height: 32px;
+    margin: 55px auto 0 auto;
+}
+
+/* ---------------------------
+10. Footer
+------------------------------ */
+
+.FooterWrap {
+    background-image: url(../img/FooterWrapBg.png);
+    background-color: #8b445d;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 60px 0 0 0;
+}
+.Footer-Logo h1 {
+    font-family: 'Vidaloka', serif;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #e9ba85;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.Footer-Logo h1 a {
+    color: #e9ba85;
+    text-decoration: none;
+}
+.Footer-Logo h1 a:focus, .Footer-Logo h1 a:hover {
+    color: #e9ba85!important;
+    text-decoration: none!important;
+}
+.Footer-Link ul {
+    margin: 30px 0 30px 0;
+    padding:0;
+    text-align: center;
+}
+.Footer-Link ul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+}
+.Footer-Link li:after {
+    content: "|";
+}
+.Footer-Link li:last-child:after {
+    content: "";
+}
+.Footer-Link ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Footer-Link ul li a:hover {
+    color: #e9ba85;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Footer-Copyright {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #e9ba85;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.CopyRightText {
+    margin: 0 35px 0 0;
+}
+
+/* ---------------------------
+11. About Page
+------------------------------ */
+
+.Inner-Container {
+    margin: -72px 0 0 0;
+}
+.InnerPage {
+    background-color: #fffdfb;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    padding-top: 52px;
+    padding-bottom: 60px;
+}
+.InnerPage p {
+    font-family: 'Vidaloka', serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #716b66;
+    text-align: center;
+    margin: 13px 0 0 0;
+}
+.text-alignment-left {
+    text-align: left!important;
+}
+.AboutProfile h2 {
+    font-family: 'Vidaloka', serif;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #a63b61;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.AboutProfileLeft {
+    text-align: center;
+}
+.AboutProfileImg {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 22px auto;
+    float: none;
+    border: 6px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+}
+.AboutProfileText {
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #716b66;
+    padding: 12px 0 12px 0;
+}
+.AboutProfileRight {
+    text-align: center;
+}
+.AboutProfileLivesBg1 {
+    background-image: url(../img/AboutProfileLives1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 278px;
+    margin: 0 0 90px 0;
+}
+.AboutProfileLivesOverlay1 {
+    background-color: rgba(195, 172, 148, .8);
+    padding: 60px 0 60px 0;
+}
+.AboutProfileLivesBg2 {
+    background-image: url(../img/AboutProfileLives2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 278px;
+    margin: 0 0 90px 0;
+}
+.AboutProfileLivesOverlay2 {} .LivesTextbox {
+    background-color: rgba(255, 253, 251, .9);
+    width: 270px;
+    height: 158px;
+    margin: 0 auto 0 auto;
+    padding: 30px 0 0 0;
+}
+.Lives-Icon {} .LivesTextbox h2 {
+    font-family: 'Vidaloka', serif;
+    color: #a63b61;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+}
+.LivesTextbox h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #e9ba85;
+    text-align: center;
+    font-weight: 400;
+}
+.AboutProfileInfo p {
+    font-family: 'Vidaloka', serif;
+    color: #716b66;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+.AboutProfilSocialIcon ul {
+    margin: 12px 0 60px 0;
+    padding: 0;
+}
+.AboutProfilSocialIcon ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+.AboutProfilSocialIcon ul li a {
+    border: 2px solid #eed5bc;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 7px 8px 7px 9px;
+    color: #eed5bc;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.AboutProfilSocialIcon ul li:last-child {
+    margin: 0 0 0 0;
+}
+.AboutProfilSocialIcon ul li a:hover {
+    color: #fff;
+    background-color: #eed5bc;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.AboutProfileView {
+    padding: 103px 0 125px 0;
+}
+.AboutProfileView h2 {
+    font-family: 'Vidaloka', serif;
+    font-size: 28px;
+    line-height: 35px;
+    color: #a63b61;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.AboutProfileView h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #e9ba85;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-weight: 400;
+}
+.GroomProfileView {
+    margin: 0 0 50px 0;
+}
+.BrideProfileView {
+    margin: 0 0 50px 0;
+}
+.Groom-Img-Wrap {
+    width: 160px;
+    height: 160px;
+    float: none;
+    border: 6px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+.Bride-Info {} .Groom-Text {
+    background-image: url(../img/about-chat-bgL.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 200px;
+    width: 530px;
+    float: right;
+    font-family: 'Vidaloka', serif;
+    color: #716b66;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 38px 0 0 77px!important;
+}
+.Bride-Img-Wrap {
+    width: 160px;
+    height: 160px;
+    float: none;
+    border: 6px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+.Bride-Info {
+    float: right;
+}
+.Bride-Text {
+    background-image: url(../img/about-chat-bgR.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 200px;
+    width: 530px;
+    font-family: 'Vidaloka', serif;
+    color: #716b66;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 38px 0 0 77px!important;
+}
+.AboutPatterns {
+    width: 140px;
+    margin: 0 auto -30px auto;
+}
+.About-Center-Img {
+    width: 90px;
+    margin: 185px 0 0 -60px;
+    position: absolute;
+}
+
+/* ---------------------------
+12. Gallery Page
+------------------------------ */
+
+.Gallery-Container {
+    padding: 0 0 120px 0;
+}
+.Gallery-Header {
+    margin: -25px 0 40px 0;
+}
+.Gallery-Header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.Gallery-Header ul li {
+    list-style: none;
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cf5658;
+    font-weight: 400;
+}
+.Gallery-Header ul li a {
+    background-color: #fffdfb;
+    border: 1px solid #cf5658;
+    color: #cf5658;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Gallery-Header ul li a:last-child {} .Gallery-Header ul li a:hover {
+    background-color: #fff7ee;
+    border: 1px solid #cf5658;
+    color: #cf5658;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Gallery-Items {
+    margin: 0 0 45px 0;
+}
+.Gallery-Item {
+    margin: 15px 0 15px 0;
+}
+.Gallery-Patterns-Img {
+    width: 140px;
+    height: 32px;
+    margin: 0 auto 0 auto;
+}
+
+
+/* Gallery Filter  */
+
+#Gallery-Items-Container .mix {
+    display: none;
+}
+
+/* ---------------------------
+13. Guestbook Page
+------------------------------ */
+
+.Guestbook-Banner {
+    margin: 0 0 50px 0;
+}
+.Guestbook-Messages {
+    background-color: #f7f0e8;
+    border-top: 1px solid #f2dfca;
+    padding: 80px 0 100px 0;
+    margin-top: 95px;
+}
+.Guestbook-Messages h2 {
+    font-family: 'Vidaloka', serif;
+    color: #a63b61;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 400;
+    text-align: center!important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Guestbook-Messages h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #e9ba85;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#message_limit {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(128, 99, 80, .5);
+}
+.Guestbook-Sms-Box {
+    background-image: url(../img/Guestbook-Sms-Box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 530px!important;
+    height: 223px;
+    margin: 0 auto 15px auto;
+    padding: 46px 80px 30px 95px;
+    font-family: 'Vidaloka', serif;
+    color: #806350;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-style: italic;
+}
+.Guestbook-Patterns-Img {
+    width: 140px;
+    height: 32px;
+    margin: 60px auto 70px auto;
+}
+
+/* Form Style */
+
+.form-group {
+    margin: 0 0 30px 0;
+}
+.Wedding-Form {
+    padding: 0 0 0 0;
+}
+.Wedding-Form label {
+    font-family: 'Vidaloka', serif;
+    color: #a63b61;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 400;
+    text-align: center!important;
+    font-style: italic;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+.Wedding-Form input {
+    font-family: 'Vidaloka', serif;
+    color: rgba(128, 99, 80, .5);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center!important;
+    font-style: italic;
+    width: 100%;
+    height: 52px;
+    border: 1px solid #f2dfca;
+    background: transparent;
+}
+.Wedding-Form textarea {
+    font-family: 'Vidaloka', serif;
+    color: rgba(128, 99, 80, .5);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center!important;
+    font-style: italic;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #f2dfca;
+    background: transparent;
+    padding: 20px;
+}
+.Wedding-Form input::-webkit-input-placeholder {
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form input:-moz-placeholder {
+    /* Firefox 18- */
+    
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form input::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form input:-ms-input-placeholder {
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form textarea::-webkit-input-placeholder {
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form textarea:-moz-placeholder {
+    /* Firefox 18- */
+    
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Form textarea:-ms-input-placeholder {
+    color: rgba(128, 99, 80, .5)!important;
+    text-align: center;
+}
+.Wedding-Btn-Wrap {
+    width: 194px;
+    height: 52px;
+    margin: 0 auto;
+    float: none;
+}
+.Wedding-Btn {
+    border: 1px solid #cf5658;
+    text-transform: uppercase;
+    background: transparent;
+    margin: 30px 0 0 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cf5658;
+    font-weight: 400;
+    text-align: center;
+    width: 190px;
+    height: 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Wedding-Btn:hover, .Wedding-Btn:focus, .Wedding-Btn:active {
+    background-color: #fff7ee;
+    border-color: #cf5658;
+    color: #cf5658;
+    box-shadow: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+/* ---------------------------
+14. Contact Page
+------------------------------ */
+
+
+.Contact-Btn-Wrap {
+    width: 215px;
+    height: 50px;
+    margin: 0 auto;
+    float: none;
+}
+.Contact-Btn {
+    border: 1px solid #cf5658;
+    text-transform: uppercase;
+    background: transparent;
+    margin: 30px 0 0 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cf5658;
+    font-weight: 400;
+    text-align: center;
+    width: 215px;
+    height: 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.Contact-Btn:hover, .Contact-Btn:focus, .Contact-Btn:active {
+    background-color: #fff7ee;
+    border-color: #cf5658;
+    color: #cf5658;
+    box-shadow: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.ContactMainImage {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.page-height {
+    height: 60px;
+}
+.contact-pattern {
+    margin-top: 90px!important;
+}
+
+
+
+
+/* ---------------------------
+15. Story Page
+------------------------------ */
+
+.OurStoryImgPattern {
+    background-image: url(../img/OurStoryBg.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 526px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.story-blog-section {
+    background-color: #f0eeec;
+    height: 420px;
+    margin-bottom: -520px;
+    margin-top: 32px;
+}
+.story-section .story-image {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.story-section .story-gallery {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.story-section h2.story-title {
+    font-family: 'Vidaloka', serif;
+    font-size: 40px;
+    line-height: 45px;
+    color: #a63b61;
+    font-weight: normal;
+}
+.story-section p.story-description {
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #716b66;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+}
+.story-quote-section {
+    background: url('../img/quote-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 60px;
+    background-attachment: fixed;
+}
+.story-quote-section-Ovelay {
+    background-color: rgba(95, 50, 68, 0.6);
+    height: 300px;
+}
+.story-quote {
+    position: relative;
+    top: 110px;
+    left: -25px;
+}
+blockquote {
+    font-family: 'Vidaloka', serif!important;
+    font-weight: normal!important;
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff!important;
+    margin-top: 80px;
+    font-style: italic;
+}
+.thanks {
+    width: 90px;
+    height: 90px;
+    margin: 55px auto 30px auto;
+}
+.OurStory-thanks-Patterns {
+    width: 140px;
+    height: 32px;
+    margin: 10px auto 120px auto;
+}
+.thanks-pattern {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* ---------------------------
+16. Main Ceremony Page
+------------------------------ */
+
+.MainCeremonyImage {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.MainCeremony p {
+    line-height: 30px;
+}
+.MainCeremonySchedule {
+    background-color: #ffffff;
+    border: 1px solid #f2dfca;
+}
+.MainCeremonySchedule ul {
+    margin: 25px 0 25px 0;
+    padding: 0 0 0 24px;
+}
+.MainCeremonySchedule ul li {
+    list-style: none;
+}
+.MainCeremonySchedule ul li.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e9ba85;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+.MainCeremonySchedule ul li.desc {
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+    color: #716b66;
+    font-weight: normal;
+    line-height: 25px;
+    padding-bottom: 22px;
+}
+.MainCeremonySchedule ul li:last-child {
+    padding-bottom: 0px;
+}
+.MainCeremonyLocation {
+    margin: 60px 0 60px 0;
+}
+
+/* ---------------------------
+17. Wedding Party Page
+------------------------------ */
+
+.WeddingPartyImage {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.WeddingParty p {
+    line-height: 30px;
+}
+.WeddingPartySchedule {
+    background-color: #ffffff;
+    border: 1px solid #f2dfca;
+}
+.WeddingPartySchedule ul {
+    margin: 25px 0 25px 0;
+    padding: 0 0 0 24px!important;
+}
+.WeddingPartySchedule ul li {
+    list-style: none;
+}
+.WeddingPartySchedule ul li.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e9ba85;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+.WeddingPartySchedule ul li.desc {
+    font-family: 'Vidaloka', serif;
+    font-size: 18px;
+    color: #716b66;
+    font-weight: normal;
+    line-height: 25px;
+    padding-bottom: 22px;
+}
+.WeddingPartySchedule ul li:last-child {
+    padding-bottom: 0px;
+}
+.WeddingPartyLocation {
+    margin: 60px 0 50px 0;
+}
+.scrollToTop {
+    position: fixed;
+    right: 0%;
+    bottom: 35%;
+    display: none;
+    color: #a63b61;
+    font-size: 200px;
+}
+.scrollToTop a, .scrollToTop a:hover, .scrollToTop a:focus {
+    color: #a63b61!important;
+    text-decoration: none;
+}
+a.scrollToTop-icon, a.scrollToTop-icon:active, a.scrollToTop-icon:focus, a.scrollToTop-icon:visited, {
+    color: #a63b61!important;
+    text-decoration: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+a .scrollToTop-icon:hover,a .scrollToTop-icon:active,a .scrollToTop-icon:focus {
+    color: #a63b61!important;
+    text-decoration: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ---------------------------
+18.Video Section
+------------------------------ */
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    margin-bottom: -552px;
+    z-index: 0;
+}
+.no-video .video-container video, .touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster, .touch .video-container .poster {
+    display: block !important;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(95, 50, 68, 0.8);
+    width: 100%;
+    height: 982px;
+}
+.video-container .title-container {
+    z-index: 990;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.video-container .description .inner {
+    font-size: 1em;
+    width: 45%;
+    margin: 0 auto;
+}
+.video-container .link {
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1001;
+    font-size: 2em;
+    color: #fff;
+}
+.video-container .link a {
+    color: #fff;
+}
+
+.video-container .filter {
+	background: rgba(237, 176, 133, 0.75);
+}
+/*.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}*/
+/*.video-container video.fillWidth {
+    width: 100%;
+    height: initial!important;
+}*/
+
+
+
+select{  
+    /*-webkit-appearance: none;*/
+    background-color: #fff7ee;
+}
+
+.fixfixed{
+    position: absolute;
+}
