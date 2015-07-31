@@ -1,0 +1,149 @@
+<!--Start FormWrap-->
+<article class="RSVP-Form">
+  <div class="RSVP-Form-Overlay">
+
+    <!--Start RSVP-Form-Bg-->
+    <div class="RSVP-Form-Bg hidden-lg hidden-md hidden-sm"></div>
+    <!--End FormWrapBg-->
+
+    <!--Start Container-->
+    <div class="container">
+
+      <!--Start Row-->
+      <div class="row clearfix">
+
+        <!-- Start FormWrapContainer -->
+        <div class="RSVP-Form-Container clearfix col-centered col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 RSVP-Left-Pattern"></div>
+
+          <!--Start FormWrapContent-->
+          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9 RSVP-Form-Content">
+
+            <div class="Rsvp-From">
+              <h2>Are you attending?</h2>
+
+              <h3 class="text-center">Dear Guest RSVP here</h3>
+
+              <!--Start Form-->
+              <form method="post" id="rsvp">
+
+                <!--Start FormFieldDiv1-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 Name-Field">
+
+                  <!--Start form-group-->
+                  <div class="form-group">
+
+                    <!--Start label-->
+                    <label for="name" class="FormLabel">Your Name</label>
+                    <!--End label-->
+                    <!--Start input-->
+                    <input type="text" id="name" name="name" class="form-control FormField" placeholder="John Doe" required>
+                    <!--End input-->
+                  </div>
+                  <!--form-group-->
+                </div>
+                <!--End FormFieldDiv1-->
+
+                <!--Start FormFieldDiv2-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 Attend-Field">
+
+                  <!--Start form-group-->
+                  <div class="form-group">
+
+                    <!--Start label-->
+                    <label class="FormLabel">i will attend</label>
+                    <!--End label-->
+                    <!--Start WeddingMenu-->
+                    <div class="WeddingMenu">
+                      <select name="attend" id="attend">
+                        <option value="-1" selected>Select Event</option>
+                        <option value="Main Ceremony">Main Ceremony</option>
+                        <option value="Wedding Party">Wedding Party</option>
+                      </select>
+                    </div>
+                    <!--End WeddingMenu-->
+
+                  </div>
+                  <!--End form-group-->
+                </div>
+                <!--End FormFieldDiv2-->
+
+                <!--Start FormFieldDiv3-->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 Guest-Field">
+
+                  <!--Start label-->
+                  <label class="FormLabel clearfix">Number of Guests</label>
+                  <!--End label-->
+                  <!--Start form-group-->
+                  <div class="form-group">
+
+                    <div class="col-lg-9 col-md-11 col-sm-4 col-xs-10 RangeBoxPadding">
+                      <!--Start input-->
+                      <div id="rangeSlider"></div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-1 col-sm-2 col-xs-2 RangeBoxPadding">
+
+                      <!--Start input-->
+                      <input type="text" name="amountInput" id="rangeValue" class="RangeBox" />
+                      <!--End input-->
+
+                      <!--Start RangeBoxArow-->
+                      <div class="RangeBoxArow"></div>
+                      <!--End RangeBoxArow-->
+
+                    </div>
+
+                  </div>
+                  <!--End form-group-->
+                </div>
+                <!--End FormFieldDiv3-->
+                <div class="clearfix"></div>
+                <!--Start AddBtnDiv-->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-9 text-center AddBtnDiv clearfix">
+
+                  <!--Start Button  AddBtn-->
+                  <button type="submit" id="submit" class="btn btn-default btn-lg AddBtn">Add</button>
+                  <img id="loading" src="img/loading.gif" data-no-retina alt="loader" />
+                  <!--End Button  AddBtn-->
+
+                </div>
+                <!--End AddBtnDiv-->
+
+              </form>
+              <!--End Form-->
+
+            </div>
+            <div class="success-msg">
+              <div class="thanks-msg">
+                <div class="thanks-img">
+                  <img src="img/thanks.png" data-no-retina alt="" class="img-responsive">
+                </div>
+                <h2>Thank You!</h2>
+                <h3>See you at the wedding</h3>
+
+
+                <div class="form-success-Patterns">
+                  <i class="icon-pattern icon-pattern-color"></i>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!--End FormWrapContent-->
+
+          <!--Start FormWrapRight-->
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 RSVP-Right-Pattern"></div>
+          <!--End FormWrapRight-->
+
+        </div>
+        <!-- End FormWrapContainer -->
+
+      </div>
+      <!--End Row -->
+    </div>
+    <!--End Container -->
+  </div>
+  <!-- End RSVP-Form-Overlay -->
+</article>
+<!--End FormWrap-->
